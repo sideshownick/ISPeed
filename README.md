@@ -48,6 +48,7 @@ tar xzvf startrinity_cst_linux_arm.tar.gz
 ```
 * make a note of the value for the `"client_email"` key
 2. Set up a new google sheet and give it a name such as `Logging`
+* delete all rows except the header row: `datetime` `speed/Mbps`
 3. Grant access to the sheet to the email address in the `<some_long_name>.json` file downloaded in step 1
 4. move the `WHATEVER.json` file to the pi and and rename it to `.config/gspread/service_account.json` in the home directory
 
